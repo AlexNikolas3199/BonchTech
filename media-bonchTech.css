@@ -1,0 +1,100 @@
+@media screen and (max-width:980px){	
+.comsection{
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.expbox{
+	margin: 0
+}
+}
+@media screen and (max-width:910px){
+
+section{
+	width: 100% !important;
+}
+header h1{
+	margin: 30px 0;
+	font-size: 40px;
+	line-height: 60px;
+	width: 300px
+}
+header p{
+	margin: 10px;
+}
+nav{
+	justify-content: center;
+}
+nav img{
+	margin: 10px 0;
+}
+nav .btn{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	margin: 0;
+}
+.pattern h2{
+	font-size: 30px
+}
+.heading{
+	text-align: center;
+	margin: 15px 5px;
+}
+.best{
+	justify-content: space-around;
+}
+.bestbox{
+	margin: 10px;
+	margin-bottom: 30px;
+}
+.exp{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.expbox{
+	margin: 0;
+	padding-bottom: 20px
+}
+.sendmail > div{
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 30px
+}
+.sendmail > div .dabletext{
+	padding-left: 10px;
+	text-align: center;
+}
+.sendmail > div .dabletext h3{
+	font-size: 25px
+}
+.sendmail > div .dabletext h4{
+	font-size: 13px
+}
+.contacts{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.ourjob{
+	min-width: 100%;
+	justify-content: center;
+}
+.jobbox{
+	max-width:35%;
+	margin: 4px;
+}
+footer > div{
+	width: 100%;
+	justify-content: space-around;
+	padding: 0 10px;
+}
+footer > div p{
+	text-align: right;
+	width: 230px;
+}
+}
+@media screen and (max-width:910px){
+	.expbox h3{
+		font-size: 16px;
+	}
+}
